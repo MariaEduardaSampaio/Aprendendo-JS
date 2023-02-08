@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Origem CSS: Externo, Interno e Inline</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+    <link rel = "stylesheet" href = "css/externo.css"> 
+</head>
+
+<body style = "background-color: coral;">
+    <!-- a prioridade é o último a ser processado. Neste caso é o estilo aplicado no inline do body, na linha acima
+         por aplicar diretamente no componente, ele tem ainda mais prioridade, embora não seja o recomendado
+        o recomendado é criar arquivos externos
+        -->
+    <h1>E agora?</h1>
+</body>
+
+</html>

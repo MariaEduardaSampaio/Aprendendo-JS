@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model</title>
+    <style>
+/* padding é um shortcut para aplicar espaçamento em todos os sentidos
+   começa do top até o left */
+        body { font-size: 80px;}
+        .c1 { background-color: orange;}
+        .c2 { background-color: blue;}
+        .c3 { background-color: darkgreen;}
+
+        div {
+            float: left;
+            padding-top: 100px;
+            padding: 10px 50px 100px 150px;
+            padding: 100px 50px; /*aplica 100 em cima e embaixo e 50 nos lados*/
+            padding: 50px; /*aplica 50 em todos os sentidos*/
+            margin: 0px 20px; /*em cima e em baixo é 0 e 20px nos lados*/
+            border: solid 15px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="c1">1</div>
+    <div class="c2">2</div>
+    <div class="c3">3</div>
+</body>
+
+</html>
